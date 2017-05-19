@@ -9,7 +9,7 @@
 
 ## Optional
 
-- Proper DNS records for best experience. (See: http://prosody.im/doc/dns#srv_records)(That page is for Prosody, but works for any XMPP server that supports DNS lookups and service discovery, like ejabberd.)
+- Proper DNS records for best experience. (See: http://prosody.im/doc/dns#srv_records )(That page is for Prosody, but works for any XMPP server that supports DNS lookups and service discovery, like ejabberd.)
 
 
 ## Installing
