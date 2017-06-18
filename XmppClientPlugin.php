@@ -45,6 +45,12 @@ class XmppClientPlugin extends Plugin{
                 default_domain: '<?php echo self::settings('xmpp_domain'); ?>',
 
             });
+$( document ).ready(function() {
+        if(navigator.userAgent.includes("p2pxdisablejs")){
+                document.getElementById("conversejs").style.display = 'none';
+        }
+});
+
 </script>
 <?php
                 return true;
@@ -63,6 +69,11 @@ class XmppClientPlugin extends Plugin{
 		default_domain: '<?php echo self::settings('xmpp_domain'); ?>',
 	
 	    });
+$( document ).ready(function() {
+	if(navigator.userAgent.includes("p2pxdisablejs")){
+		document.getElementById("conversejs").style.display = 'none';
+	}
+});
 </script>
 <?php
 		return true;
